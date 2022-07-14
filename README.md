@@ -1,1 +1,1 @@
-# Primewaffle
+# Prime Waffle
