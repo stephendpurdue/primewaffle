@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+/* https://blog.karenying.com/posts/50-shades-of-dark-mode-gray */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.dark {
+    --MainBackgroundColor: #121212;
+    --MenuBackgroundColor: #181818;
+    --TextColor: #ffffff;
+}
+
+.light {
+    --MainBackgroundColor: #ffffff;
+    --MenuBackgroundColor: #dee4e7;
+    --TextColor: #000000;
+}
+
+header {
+    position: sticky;
+    width: 100vw;
+    height: 100px;
+    background-color: var(--MenuBackgroundColor);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > h1 {
+    color: var(--TextColor);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+body {
+    background-color: var(--MainBackgroundColor);
+    width: 100vw;
+    overflow-x: hidden;
+}
