@@ -1,0 +1,13 @@
+header {
+    position: sticky;
+    width: 100vw;
+    height: 100px;
+    background-color: transparent;
+    filter: blur(5px);
+}
+
+body {
+    background-color: linear-gradient(to bottom right, #89d8ff, #ff7df9, #c300ff);
+    width: 100vw;
+    overflow-x: hidden;
+}
